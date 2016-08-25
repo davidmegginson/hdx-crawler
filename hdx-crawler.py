@@ -21,8 +21,8 @@ for package_id in ckan.action.package_list():
     package = ckan.action.package_show(id=package_id)
     print("Package: {}".format(package['title']))
     for resource in package['resources']:
-        print("  Name: {}".format(resource['name']))
-        print("  Location: {}".format(resource['url']))
+        print("  Resource: {}".format(resource['name']))
+        print("    URL: {}".format(resource['url']))
     print("")
     time.sleep(DELAY) # give HDX a short rest
 
