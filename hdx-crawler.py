@@ -5,7 +5,7 @@ Python CKAN library: https://github.com/ckan/ckanapi
 Started by David Megginson, 2016-08-25
 """
 
-import ckanapi, json, sys, time
+import ckanapi, time
 
 DELAY = 5
 """Time delay in seconds between datasets, to give HDX a break."""
